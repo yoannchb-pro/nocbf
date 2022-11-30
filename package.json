@@ -1,5 +1,5 @@
 {
-  "name": "nocb",
+  "name": "nocbf",
   "version": "1.0.0",
   "description": "Transform callback function into promise",
   "main": "./dist/index.js",

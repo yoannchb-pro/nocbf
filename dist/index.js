@@ -9,7 +9,7 @@
    * @param fn Function that accept a promise resolver and rejecter as argument
    * @returns
    */
-  function nocb(fn) {
+  function nocbf(fn) {
       return new Promise((resolve, reject) => {
           try {
               fn(resolve, reject);
@@ -20,7 +20,7 @@
       });
   }
 
-  return nocb;
+  return nocbf;
 
 }));
 //# sourceMappingURL=index.js.map

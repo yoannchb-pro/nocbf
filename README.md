@@ -1,11 +1,11 @@
-# nocb
+# nocbf
 
 Transform callback function into promise
 
 ## Install
 
 ```
-$ npm install nocb
+$ npm install nocbf
 ```
 
 ## Import
@@ -13,13 +13,13 @@ $ npm install nocb
 In node.js
 
 ```js
-import nocb from "nocb";
+import nocbf from "nocbf";
 ```
 
 In the browser
 
 ```html
-<script src="https://unpkg.com/nocb@1.0.0/dist/index.js"></script>
+<script src="https://unpkg.com/nocbf@1.0.0/dist/index.js"></script>
 ```
 
 ## Example
@@ -34,8 +34,8 @@ function sayHello(callback) {
 }
 
 async function test() {
-  const rep = await nocb((resolve, reject) => saySomething("Hi NOCB !", r));
-  const rep2 = await nocb(sayHello);
+  const rep = await nocbf((resolve, reject) => saySomething("Hi NOCB !", r));
+  const rep2 = await nocbf(sayHello);
 
   console.log(rep);
   console.log(rep2);

@@ -3,7 +3,7 @@
  * @param fn Function that accept a promise resolver and rejecter as argument
  * @returns
  */
-function nocb(
+function nocbf(
   fn: (resolve: (value: unknown) => void, reject: (reason?: any) => void) => any
 ) {
   return new Promise((resolve, reject) => {
@@ -15,4 +15,4 @@ function nocb(
   });
 }
 
-export default nocb;
+export default nocbf;
