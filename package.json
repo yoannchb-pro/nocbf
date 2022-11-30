@@ -1,0 +1,32 @@
+{
+  "name": "nocb",
+  "version": "1.0.0",
+  "description": "Transform callback function into promise",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "node ./test/test.js",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoannchb-pro/nocb.git"
+  },
+  "keywords": [
+    "promise",
+    "callback",
+    "function",
+    "transform"
+  ],
+  "author": "yoannchb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoannchb-pro/nocb/issues"
+  },
+  "homepage": "https://github.com/yoannchb-pro/nocb#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.5",
+    "rollup-plugin-ts": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}
